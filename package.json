@@ -1,0 +1,21 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "author": "cherniavskii",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "~6.24.1",
+    "babel-loader": "~7.0.0",
+    "babel-plugin-transform-object-rest-spread": "~6.23.0",
+    "babel-preset-env": "~1.4.0",
+    "copy-webpack-plugin": "~4.0.1",
+    "webpack": "~2.5.1",
+    "webpack-dev-server": "~2.4.4"
+  }
+}
